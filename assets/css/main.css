@@ -1,0 +1,146 @@
+ nav{
+            text-align: right;
+            padding:40px 5px 5px 20px;
+            margin: 10px ;
+        }
+        button{
+            padding: 8px 5px;
+            background-color: aqua;
+            border:none;
+            border-radius: 8px;
+            margin-right: 10px;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            color: darkblue;
+        }
+        p{
+            color: coral;
+            font-size: 15px;
+            font-family: SansSerif;
+            font-style: normal;
+            font-weight: bold;
+        }
+        /*a{*/
+        /*    margin-bottom: 10px;*/
+        /*    background-color: aqua;*/
+        /*    color: midnightblue;*/
+        /*    font-style: normal;*/
+        /*}*/
+ table{
+     width:100%;
+     border-collapse:collapse;
+ }
+ table,th,td{
+     border: 2px solid;
+ }
+ td{
+     /*color: coral;*/
+ }
+ .contact-container{
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+     align-items: flex-start;
+ }
+ .map {
+     flex: 1;
+     min-width: 300px;
+ }
+ .videos{
+     flex: 1.5;
+     min-width: 300px;
+     display: flex;
+     /*flex-direction: column;*/
+     gap: 15px;
+ }
+ iframe{
+     max-width: 100%;
+ }
+ /*signup styles*/
+form{
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+fieldset{
+    border: none;
+    padding: 0;
+}
+h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],select{
+    padding: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 6px;
+    font-size: 1em;
+    width: 100%;
+}
+.form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    padding: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 6px;
+    font-size: 1em;
+    width: 100%;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3ease;
+}
+input[type="submit"]:hover{
+    background-color: black;
+}
+/*gallery styles*/
+ #images{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 15px;
+     justify-content: center;
+     padding: 20px;
+ }
+ #images img{
+     width: 200px;
+     height: 250px;
+     border-radius: 12px;
+     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+     cursor:pointer;
+ }
+ #images img:hover{
+     transform: scale(1.05);
+     box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+ }
+ /*home styles*/
+ #picture{
+     display: flex;
+     padding: 20px;
+     flex-direction: wrap;
+ }
+ #picture img{
+     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+     border-radius: 12px;
+     height: 420px;
+     width: 95%;
+ }

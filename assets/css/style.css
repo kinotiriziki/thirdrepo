@@ -1,0 +1,48 @@
+nav{
+    background-color:#345beb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    top: 0;
+}
+nav ul{
+   display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+/*about us hero image section*/
+.hero-image{
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/20/07/10/architecture-5195171_960_720.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 550px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.hero-text{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
